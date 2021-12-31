@@ -63,7 +63,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
             // Replace all macros
             let space = "\\s\t\r\n";
-            var macroRegex = new RegExp("\@macros["+space+"]*\{[a-zA-Z0-9\-\(\)\"\'\;\,\:"+space+"]*\}").exec(text)[0];
+            var macroRegex = new RegExp("\@macros["+space+"]*\{[a-zA-Z0-9\-\(\)\"\'\;\,\:\%"+space+"]*\}").exec(text)[0];
             let macroList = macroRegex.substring(macroRegex.indexOf('{')+1).replace(new RegExp("["+space+"\}]*", "g"),"");
             let macroPairs = macroList.split(";");
             let macros = window.CSSMacrosEnvironment.macros;
