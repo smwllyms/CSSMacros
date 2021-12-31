@@ -21,7 +21,7 @@ Use a macro in one of your style properties.
 ![image](https://user-images.githubusercontent.com/68836604/147839055-af3384ab-6268-46e1-be02-244ac7d638ee.png)
 
 ## Step 4
-After DOM and styles have loaded, call window.CSSMacroEnvironment.setMacro(key [string], value [string]) and watch the magic happen!
+After DOM and styles have loaded, call window.CSSMacrosEnvironment.setMacro(key [string], value [string]) and watch the magic happen!
 
 ![image](https://user-images.githubusercontent.com/68836604/147839062-8cde2e8e-e428-4c48-bf6f-44f1abd7d649.png)
 
